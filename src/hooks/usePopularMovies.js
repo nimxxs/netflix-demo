@@ -15,13 +15,13 @@ export const usePopularMoviesQuery = () => {
     });
 };
 
-const TopPopularMovies = () => {
+const TopRatedMovies = () => {
     return api.get(`/movie/top_rated`);
 };
-export const useTopPopularMoviesQuery = () => {
+export const useTopRatedMoviesQuery = () => {
     return useQuery({
         queryKey: ['topMovie'],
-        queryFn: TopPopularMovies,
+        queryFn: TopRatedMovies,
         select:(result) => result.data,
     });
 };
