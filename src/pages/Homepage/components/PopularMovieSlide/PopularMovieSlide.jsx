@@ -33,7 +33,7 @@ const PopularMovieSlide = () => {
 
   return (
     <div>
-        <h3>Popular Movies</h3>
+        <h3 className='popular-text'>Popular Movies ▶II</h3>
         <Carousel
             infinite={true}
             centerMode={true}
