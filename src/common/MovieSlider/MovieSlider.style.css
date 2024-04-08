@@ -12,6 +12,7 @@
 @media screen and (max-width: 950px) {
     .popular-text {
         font-size: 1.5em;
+        margin-left: 20px;
     }
 
 }
