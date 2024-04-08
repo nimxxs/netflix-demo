@@ -5,7 +5,13 @@
 .popular-text {
     margin-top: 40px;
     margin-left: 40px;
-    font-size: 50px;
+    font-size: 3.5em;
     color: rgb(184, 0, 0);
     text-shadow: 3px 3px rgb(255, 255, 255);
+}
+@media screen and (max-width: 950px) {
+    .popular-text {
+        font-size: 1.5em;
+    }
+
 }
