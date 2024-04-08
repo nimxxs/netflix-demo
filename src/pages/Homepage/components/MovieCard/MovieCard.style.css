@@ -37,5 +37,15 @@
     bottom: 15px;
     width: 100%;
 }
-.overlay-text > div {
+@media screen and (max-width: 950px) {
+    .movie-card {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 90%;
+    }
+    .movie-card:hover {
+        transform: scale(1.1) translateZ(10px);
+        z-index: 2;
+    }
+    
 }
