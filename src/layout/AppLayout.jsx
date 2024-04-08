@@ -7,7 +7,7 @@ const AppLayout = () => {
     <div>
     <Navbar expand="lg" className="nav-background">
       <Container fluid>
-        <Navbar.Brand href="#"><img className="netflix-logo" src="https://i.namu.wiki/i/37OXzYHnvZM-jVjR_-6uVY9agStDp76WQiG8fncUGH3jVx-HYw8kvaitBRnrGsru1LRMr6gtJbdUSveIlIpK_g.svg" /></Navbar.Brand>
+        <Navbar.Brand href="#"><img className="netflix-logo" src="https://static-cdn.jtvnw.net/jtv_user_pictures/bcb0e800-77b3-40d9-9ccb-4195483fb726-profile_image-300x300.png" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
