@@ -37,6 +37,14 @@
     bottom: 15px;
     width: 100%;
 }
+.genre-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.genre-text > span {
+    margin: 5px;
+}
 @media screen and (max-width: 950px) {
     .movie-card {
         background-size: contain;
