@@ -40,12 +40,12 @@ const MoviePage = () => {
     <Container>
       <Row>
         <Col lg={4} xs={12}>
-          피터
+          필터
         </Col>
         <Col lg={8} xs={12}>
           <Row>
             {data?.results.map((movie, index) => (
-              <Col key={index} lg={4} xs={12}>
+              <Col key={index} lg={4} xs={12} className="moviePage-card">
                 <MovieCard movie={movie} />
               </Col>
             ))}

@@ -22,4 +22,8 @@
     .pagination .active { /* 현재 페이지 */
         display: block; /* 선택한 페이지 항목만 표시 */
     }
+    .moviePage-card {
+        display: flex;
+        justify-content: center;
+    }
 }

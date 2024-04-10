@@ -49,11 +49,19 @@
     .movie-card {
         background-size: contain;
         background-repeat: no-repeat;
-        width: 90%;
+        width: 220px;
+        display: flex;
+        justify-content: center;
     }
     .movie-card:hover {
         transform: scale(1.1) translateZ(10px);
         z-index: 2;
+    }
+    .overlay {
+        width: 100%;
+    }
+    .overlay:hover {
+        opacity: 1;
     }
     
 }
